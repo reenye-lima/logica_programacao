@@ -13,7 +13,7 @@ Para cada exercício:
 
 ---
 
-## 4. Conversor de moeda
+## 1. Conversor de moeda
 
 Faça um programa que leia um valor em reais e a cotação do dólar. Calcule e apresente o valor convertido para dólares.
 
@@ -34,7 +34,7 @@ dólares = reais / cotação
 
 ---
 
-## 5. Cálculo de desconto
+## 2. Cálculo de desconto
 
 Faça um programa que leia o preço de um produto e o percentual de desconto. Calcule e apresente o valor do desconto e o preço final do produto.
 
@@ -57,7 +57,7 @@ preço final = preço - desconto
 
 ---
 
-## 6. Consumo de combustível
+## 3. Consumo de combustível
 
 Faça um programa que leia a quantidade de quilômetros percorridos por um carro e a quantidade de litros de combustível consumidos. Calcule o consumo médio do veículo.
 
