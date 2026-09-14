@@ -583,7 +583,7 @@ int main() {
 # 15. Fluxograma — Desconto
 
 Antes de programar uma decisão, podemos representá-la utilizando um fluxograma.
-
+<!-- 
 ```text
                  INÍCIO
                     ↓
@@ -603,7 +603,9 @@ Antes de programar uma decisão, podemos representá-la utilizando um fluxograma
               Mostrar dados
                     ↓
                    FIM
-```
+``` -->
+
+![Fluxograma Cálculo Desconto](./print1.JPG)
 
 O fluxograma e o código representam a mesma lógica.
 
