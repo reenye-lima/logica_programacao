@@ -364,6 +364,97 @@ ENTRADA NEGADA
 
 ---
 
+# 6. Atividade 3 — Meia-entrada no cinema
+
+Um cinema concede **meia-entrada** para pessoas que:
+
+- sejam estudantes;
+- **OU**
+- tenham idade igual ou superior a 60 anos;
+
+**E**, em qualquer um dos casos,
+
+- apresentem um documento de comprovação.
+
+Faça um programa que leia:
+
+- idade da pessoa;
+- se é estudante;
+- se apresentou documento de comprovação.
+
+Considere:
+
+```text
+1 = sim
+0 = não
+```
+
+O programa deverá informar:
+
+```text
+MEIA-ENTRADA
+```
+
+ou:
+
+```text
+INTEIRA
+```
+
+### Regra
+
+```text
+( Estudante  OU  Idade >= 60 )
+              E
+   Apresentou documento
+              ↓
+        MEIA-ENTRADA
+
+Caso contrário
+              ↓
+          INTEIRA
+```
+
+### Atenção aos parênteses
+
+Quando usamos **E** e **OU** na mesma condição, os parênteses indicam **o que deve ser avaliado primeiro**.
+
+```c
+if ((condicao1 || condicao2) && condicao3)
+```
+
+Primeiro verificamos se **pelo menos uma** das condições dentro dos parênteses é verdadeira. Depois, esse resultado precisa ser verdadeiro **junto com** a terceira condição.
+
+### Tabela de possibilidades
+
+| Estudante | Idade >= 60 | Documento | Resultado |
+|---|---|---|---|
+| Verdadeiro | Falso | Verdadeiro | Meia-entrada |
+| Falso | Verdadeiro | Verdadeiro | Meia-entrada |
+| Verdadeiro | Verdadeiro | Verdadeiro | Meia-entrada |
+| Verdadeiro | Falso | Falso | Inteira |
+| Falso | Verdadeiro | Falso | Inteira |
+| Falso | Falso | Verdadeiro | Inteira |
+| Falso | Falso | Falso | Inteira |
+
+### Para desenvolver
+
+**1. Identifique as entradas.**
+
+**2. Identifique o processamento.**
+
+**3. Identifique a condição.**
+
+**4. Identifique as saídas.**
+
+**5. Desenvolva o algoritmo.**
+
+**6. Desenvolva o fluxograma.**
+
+**7. Implemente a solução em C utilizando `if`, `else`, `&&` e `||`.**
+
+---
+
 # Objetivo
 
 Compreender como utilizar operadores lógicos junto às estruturas de decisão.
