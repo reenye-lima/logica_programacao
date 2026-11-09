@@ -419,10 +419,6 @@ Caso contrário
 
 Quando usamos **E** e **OU** na mesma condição, os parênteses indicam **o que deve ser avaliado primeiro**.
 
-```c
-if ((condicao1 || condicao2) && condicao3)
-```
-
 Primeiro verificamos se **pelo menos uma** das condições dentro dos parênteses é verdadeira. Depois, esse resultado precisa ser verdadeiro **junto com** a terceira condição.
 
 ### Tabela de possibilidades
