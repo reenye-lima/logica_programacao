@@ -482,3 +482,7 @@ Múltiplas condições
 - Fluxogramas
 - Implementação em C
 - Combinação de condições
+
+---
+
+### [Formulário de envio](https://forms.cloud.microsoft/r/jQg7wFmPVi)
